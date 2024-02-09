@@ -1,6 +1,5 @@
 <script>
-  import { LibIcon } from "$lib";
-  import Icon from "$lib/Icon.svelte";
+  import { Icon, LibIcon } from "lib-icon";
 </script>
 
 <svelte:head>
@@ -10,7 +9,7 @@
   />
 </svelte:head>
 
-<h1>Lib</h1>
+<h1>App</h1>
 
 {#each Object.entries(LibIcon) as [key, icon]}
   <center>
